@@ -1,0 +1,12 @@
+{
+  "env": {
+    "browser": true,
+    "ESNext": true
+  },
+  "extends": ["prettier", "standard", "plugin:playwright/recommended"],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {}
+}

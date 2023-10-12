@@ -1,0 +1,31 @@
+{
+  "name": "playwright-javascript",
+  "version": "1.0.0",
+  "description": "Projeto de demonstração utilizando Playwright e JS",
+  "scripts": {
+    "clean": "rimraf playwright-report test-results",
+    "install:browser": "playwright install",
+    "test": "playwright test",
+    "test:trace": "playwright test --trace on",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "automation",
+    "playwright"
+  ],
+  "author": "bredah",
+  "license": "LGPL-3.0-only",
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.8.4",
+    "eslint": "^8.51.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-n": "^16.2.0",
+    "eslint-plugin-playwright": "^0.16.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "3.0.3",
+    "rimraf": "^5.0.5"
+  }
+}
